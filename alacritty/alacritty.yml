@@ -1,0 +1,44 @@
+
+# Alacritty Color Scheme: Deep Purple
+# Add or replace the 'colors:' section in your alacritty.yml file
+# (Usually located at ~/.config/alacritty/alacritty.yml or ~/.alacritty.yml)
+
+colors:
+  # Primary colors
+  primary:
+    # Background color (a deep, dark purple)
+    background: '#281A3A' # Dark Slate Purple
+    # Foreground text color (a contrasting light color)
+    foreground: '#E0D8E9' # Light Lavender Gray
+
+  # Cursor colors
+  cursor:
+    text: '#281A3A' # Use background color for text on cursor
+    cursor: '#E0D8E9' # Use foreground color for cursor block
+
+  # Selection colors
+  selection:
+    text: '#FFFFFF' # White text when selected
+    background: '#5A4A72' # Muted Purple for selection background
+
+  # Normal colors (for standard terminal output)
+  normal:
+    black:   '#1E132A' # Very Dark Purple/Black
+    red:     '#E06B7F' # Soft Red/Pink
+    green:   '#98C379' # Muted Green
+    yellow:  '#E5C07B' # Soft Yellow/Gold
+    blue:    '#61AFEF' # Light Blue
+    magenta: '#C678DD' # Bright Magenta/Purple
+    cyan:    '#56B6C2' # Muted Cyan/Teal
+    white:   '#ABB2BF' # Light Gray
+
+  # Bright colors (for bold/bright terminal output)
+  bright:
+    black:   '#5C6370' # Medium Gray
+    red:     '#E06B7F' # Soft Red/Pink (same as normal for less harshness)
+    green:   '#98C379' # Muted Green (same as normal)
+    yellow:  '#E5C07B' # Soft Yellow/Gold (same as normal)
+    blue:    '#61AFEF' # Light Blue (same as normal)
+    magenta: '#C678DD' # Bright Magenta/Purple (same as normal)
+    cyan:    '#56B6C2' # Muted Cyan/Teal (same as normal)
+    white:   '#FFFFFF' # Pure White
