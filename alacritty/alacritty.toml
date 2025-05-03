@@ -1,3 +1,6 @@
+[general]
+live_config_reload = true
+
 [colors.bright]
 black = "#5C6370"
 blue = "#61AFEF"
@@ -31,20 +34,37 @@ background = "#5A4A72"
 text = "#FFFFFF"
 
 [font]
-size = 12.5
+size = 13 # Adjust the size as needed
 
 [font.normal]
 family = "JetBrains Mono"
-style = "Regular"
+style = "Regular" # Optional: uncomment if a specific style is needed
 
 [font.bold]
 family = "JetBrains Mono"
-style = "Bold"
+style = "Bold" # Optional: uncomment if a specific style is needed
 
 [font.italic]
 family = "JetBrains Mono"
-style = "Italic"
+style = "Italic" # Optional: uncomment if a specific style is needed
 
 [font.bold_italic]
 family = "JetBrains Mono"
-style = "Bold Italic" 
+style = "Bold Italic" # Optional: uncomment if a specific style is needed
+
+[window]
+opacity = 0.9
+blur = true
+dynamic_title = true
+
+[scrolling]
+multiplier = 10
+
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[mouse]
+bindings = [
+  { mouse = "Middle", action = "Paste" }
+]
+
