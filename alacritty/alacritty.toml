@@ -29,3 +29,22 @@ foreground = "#E0D8E9"
 [colors.selection]
 background = "#5A4A72"
 text = "#FFFFFF"
+
+[font]
+size = 12.5
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic" 
