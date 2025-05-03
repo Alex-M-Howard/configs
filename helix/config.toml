@@ -6,6 +6,7 @@ line-number = "relative"
 bufferline = "multiple"
 color-modes = true
 end-of-line-diagnostics = "hint"
+scrolloff = 15
 
 [editor.lsp]
 display-inlay-hints = true
