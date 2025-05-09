@@ -1,0 +1,30 @@
+[user]
+	name = Alex Howard
+	email = alex-m-howard@pm.me
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[alias]
+	ac = !git add . && git commit -m
+	c = !git commit -m
+	f = !git fetch -a && git fetch --prune
+	s = !git pull && git status
+	unstage = reset HEAD --
+	graph = log --all --graph --decorate --oneline
+[core]
+	editor = hx
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[rebase]
+	autosquash = true
+[rerere]
+	enabled = true
