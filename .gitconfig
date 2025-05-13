@@ -1,13 +1,14 @@
-[user]
-	name = Alex Howard
-	email = alex-m-howard@pm.me
 [credential "https://github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = alex-m-howard@pm.me.com
+	name = Alex Howard
 [alias]
+	undo = reset HEAD~
 	ac = !git add . && git commit -m
 	c = !git commit -m
 	f = !git fetch -a && git fetch --prune
@@ -16,15 +17,24 @@
 	graph = log --all --graph --decorate --oneline
 [core]
 	editor = hx
-[color]
-	ui = auto
-[init]
-	defaultBranch = main
+[merge]
+	conflictstyle = zdiff3
+[rebase]
+	autostash = true
+	autosquash = true
+[push]
+	autoSetupRemote = true
 [pull]
 	rebase = true
-[fetch]
-	prune = true
-[rebase]
-	autosquash = true
+[commit]
+	verbose = true
 [rerere]
 	enabled = true
+[help]
+	autocorrect = 10
+[init]
+	defaultBranch = main
+[fetch]
+	prune = true
+[color]
+	ui = auto
